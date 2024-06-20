@@ -1,0 +1,48 @@
+-- Downloading https://www.fftw.org/fftw-3.3.10.tar.gz -> fftw-3.3.10.tar.gz...
+-- Extracting source C:/Users/meloy/AppData/Local/vcpkg/downloads/fftw-3.3.10.tar.gz
+-- Applying patch fftw3_arch_fix.patch
+-- Applying patch aligned_malloc.patch
+-- Applying patch bigobj.patch
+-- Applying patch fix-openmp.patch
+-- Applying patch install-subtargets.patch
+-- Using source at C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/src/fftw-3-bf27957b53.clean
+-- fftw3...
+-- Found external ninja('1.11.0').
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- fftw3f...
+CMake Warning at C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/x64-windows/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:19 (message):
+  vcpkg_cmake_configure already called; this function should only be called
+  once.
+Call Stack (most recent call first):
+  C:/Users/meloy/AppData/Local/vcpkg/registries/git-trees/824a4cda47df1a63c0b13f2a603e7d0fb0dac900/portfile.cmake:38 (vcpkg_cmake_configure)
+  scripts/ports.cmake:175 (include)
+
+
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- fftw3l...
+CMake Warning at C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/x64-windows/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:19 (message):
+  vcpkg_cmake_configure already called; this function should only be called
+  once.
+Call Stack (most recent call first):
+  C:/Users/meloy/AppData/Local/vcpkg/registries/git-trees/824a4cda47df1a63c0b13f2a603e7d0fb0dac900/portfile.cmake:38 (vcpkg_cmake_configure)
+  scripts/ports.cmake:175 (include)
+
+
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Fixing pkgconfig file: C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/pkgs/fftw3_x64-windows/lib/pkgconfig/fftw3.pc
+-- Fixing pkgconfig file: C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/pkgs/fftw3_x64-windows/lib/pkgconfig/fftw3f.pc
+-- Fixing pkgconfig file: C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/pkgs/fftw3_x64-windows/lib/pkgconfig/fftw3l.pc
+-- Downloading https://mirror.msys2.org/mingw/mingw64/mingw-w64-x86_64-pkgconf-1~2.1.0-1-any.pkg.tar.zst;https://repo.msys2.org/mingw/mingw64/mingw-w64-x86_64-pkgconf-1~2.1.0-1-any.pkg.tar.zst;https://mirror.yandex.ru/mirrors/msys2/mingw/mingw64/mingw-w64-x86_64-pkgconf-1~2.1.0-1-any.pkg.tar.zst;https://mirrors.tuna.tsinghua.edu.cn/msys2/mingw/mingw64/mingw-w64-x86_64-pkgconf-1~2.1.0-1-any.pkg.tar.zst;https://mirrors.ustc.edu.cn/msys2/mingw/mingw64/mingw-w64-x86_64-pkgconf-1~2.1.0-1-any.pkg.tar.zst;https://mirror.selfnet.de/msys2/mingw/mingw64/mingw-w64-x86_64-pkgconf-1~2.1.0-1-any.pkg.tar.zst -> msys2-mingw-w64-x86_64-pkgconf-1~2.1.0-1-any.pkg.tar.zst...
+-- Downloading https://mirror.msys2.org/msys/x86_64/msys2-runtime-3.4.10-4-x86_64.pkg.tar.zst;https://repo.msys2.org/msys/x86_64/msys2-runtime-3.4.10-4-x86_64.pkg.tar.zst;https://mirror.yandex.ru/mirrors/msys2/msys/x86_64/msys2-runtime-3.4.10-4-x86_64.pkg.tar.zst;https://mirrors.tuna.tsinghua.edu.cn/msys2/msys/x86_64/msys2-runtime-3.4.10-4-x86_64.pkg.tar.zst;https://mirrors.ustc.edu.cn/msys2/msys/x86_64/msys2-runtime-3.4.10-4-x86_64.pkg.tar.zst;https://mirror.selfnet.de/msys2/msys/x86_64/msys2-runtime-3.4.10-4-x86_64.pkg.tar.zst -> msys2-msys2-runtime-3.4.10-4-x86_64.pkg.tar.zst...
+-- Using msys root at C:/Users/meloy/AppData/Local/vcpkg/downloads/tools/msys2/fdbea3694fb5c0d4
+-- Fixing pkgconfig file: C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/pkgs/fftw3_x64-windows/debug/lib/pkgconfig/fftw3.pc
+-- Fixing pkgconfig file: C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/pkgs/fftw3_x64-windows/debug/lib/pkgconfig/fftw3f.pc
+-- Fixing pkgconfig file: C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/pkgs/fftw3_x64-windows/debug/lib/pkgconfig/fftw3l.pc
+-- Installing: C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/pkgs/fftw3_x64-windows/share/fftw3/copyright
+-- Performing post-build validation

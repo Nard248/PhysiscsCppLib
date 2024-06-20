@@ -1,0 +1,6 @@
+C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/fftw3l.dir
+C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/edit_cache.dir
+C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/rebuild_cache.dir
+C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/list_install_components.dir
+C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/install.dir
+C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/install/local.dir

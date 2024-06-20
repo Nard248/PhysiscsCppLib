@@ -1,0 +1,1976 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:206 (message)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      The target system is: Windows - 10.0.22631 - AMD64
+      The host system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/cl.exe 
+      Build flags: /nologo;/DWIN32;/D_WINDOWS;/W3;/utf-8;/MP
+      Id flags:  
+      
+      The output was:
+      0
+      CMakeCCompilerId.c
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/3.27.5/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1155 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Note: including file: C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/cl.exe 
+      Build flags: /nologo;/DWIN32;/D_WINDOWS;/W3;/utf-8;/GR;/EHsc;/MP
+      Id flags:  
+      
+      The output was:
+      0
+      CMakeCXXCompilerId.cpp
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/3.27.5/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1155 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Note: including file: C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ye3f79"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ye3f79"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ye3f79'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_90381
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_90381.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_90381.dir\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_90381.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_90381.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_90381.exe /implib:cmTC_90381.lib /pdb:cmTC_90381.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-nwt9x5"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-nwt9x5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-nwt9x5'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_f3191
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /GR /EHsc /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_f3191.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_f3191.dir\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_f3191.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_f3191.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_f3191.exe /implib:cmTC_f3191.lib /pdb:cmTC_f3191.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:35 (check_include_file)"
+    checks:
+      - "Looking for alloca.h"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-z44t98"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-z44t98"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_ALLOCA_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-z44t98'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_e4b9e
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_e4b9e.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_e4b9e.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-z44t98\\CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_e4b9e.dir/CheckIncludeFile.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_e4b9e.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_e4b9e.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-z44t98\\CheckIncludeFile.c
+        C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-z44t98\\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'alloca.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:36 (check_include_file)"
+    checks:
+      - "Looking for altivec.h"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-c12rao"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-c12rao"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_ALTIVEC_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-c12rao'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_24457
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_24457.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_24457.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-c12rao\\CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_24457.dir/CheckIncludeFile.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_24457.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_24457.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-c12rao\\CheckIncludeFile.c
+        C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-c12rao\\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'altivec.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:37 (check_include_file)"
+    checks:
+      - "Looking for c_asm.h"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-c0i7iy"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-c0i7iy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_C_ASM_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-c0i7iy'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_352a3
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_352a3.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_352a3.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-c0i7iy\\CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_352a3.dir/CheckIncludeFile.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_352a3.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_352a3.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-c0i7iy\\CheckIncludeFile.c
+        C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-c0i7iy\\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'c_asm.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:38 (check_include_file)"
+    checks:
+      - "Looking for dlfcn.h"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-p6csez"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-p6csez"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_DLFCN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-p6csez'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_bce41
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_bce41.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_bce41.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-p6csez\\CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_bce41.dir/CheckIncludeFile.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_bce41.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_bce41.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-p6csez\\CheckIncludeFile.c
+        C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-p6csez\\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'dlfcn.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:39 (check_include_file)"
+    checks:
+      - "Looking for intrinsics.h"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-te2bni"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-te2bni"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_INTRINSICS_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-te2bni'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_c066c
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_c066c.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_c066c.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-te2bni\\CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_c066c.dir/CheckIncludeFile.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_c066c.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_c066c.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-te2bni\\CheckIncludeFile.c
+        C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-te2bni\\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'intrinsics.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:40 (check_include_file)"
+    checks:
+      - "Looking for inttypes.h"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-0lpiqo"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-0lpiqo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-0lpiqo'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_b75f3
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_b75f3.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_b75f3.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-0lpiqo\\CheckIncludeFile.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_b75f3.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_b75f3.dir\\CheckIncludeFile.c.obj  /out:cmTC_b75f3.exe /implib:cmTC_b75f3.lib /pdb:cmTC_b75f3.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:41 (check_include_file)"
+    checks:
+      - "Looking for libintl.h"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-lk47ak"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-lk47ak"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_LIBINTL_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-lk47ak'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_fdc52
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_fdc52.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_fdc52.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-lk47ak\\CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_fdc52.dir/CheckIncludeFile.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_fdc52.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_fdc52.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-lk47ak\\CheckIncludeFile.c
+        C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-lk47ak\\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'libintl.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:42 (check_include_file)"
+    checks:
+      - "Looking for limits.h"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-qwj1zs"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-qwj1zs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_LIMITS_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-qwj1zs'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_492f4
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_492f4.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_492f4.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-qwj1zs\\CheckIncludeFile.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_492f4.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_492f4.dir\\CheckIncludeFile.c.obj  /out:cmTC_492f4.exe /implib:cmTC_492f4.lib /pdb:cmTC_492f4.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:43 (check_include_file)"
+    checks:
+      - "Looking for mach/mach_time.h"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-tmj93r"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-tmj93r"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_MACH_MACH_TIME_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-tmj93r'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_13a82
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_13a82.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_13a82.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-tmj93r\\CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_13a82.dir/CheckIncludeFile.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_13a82.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_13a82.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-tmj93r\\CheckIncludeFile.c
+        C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-tmj93r\\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'mach/mach_time.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:44 (check_include_file)"
+    checks:
+      - "Looking for malloc.h"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-s6fa03"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-s6fa03"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_MALLOC_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-s6fa03'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_d2468
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d2468.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_d2468.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-s6fa03\\CheckIncludeFile.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_d2468.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d2468.dir\\CheckIncludeFile.c.obj  /out:cmTC_d2468.exe /implib:cmTC_d2468.lib /pdb:cmTC_d2468.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:45 (check_include_file)"
+    checks:
+      - "Looking for memory.h"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-81hbm8"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-81hbm8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_MEMORY_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-81hbm8'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_4e1dd
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_4e1dd.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_4e1dd.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-81hbm8\\CheckIncludeFile.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_4e1dd.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4e1dd.dir\\CheckIncludeFile.c.obj  /out:cmTC_4e1dd.exe /implib:cmTC_4e1dd.lib /pdb:cmTC_4e1dd.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:46 (check_include_file)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-nyxodx"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-nyxodx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-nyxodx'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_d544f
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d544f.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_d544f.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-nyxodx\\CheckIncludeFile.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_d544f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d544f.dir\\CheckIncludeFile.c.obj  /out:cmTC_d544f.exe /implib:cmTC_d544f.lib /pdb:cmTC_d544f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:47 (check_include_file)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-hwcd4v"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-hwcd4v"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-hwcd4v'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_be08c
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_be08c.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_be08c.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-hwcd4v\\CheckIncludeFile.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_be08c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_be08c.dir\\CheckIncludeFile.c.obj  /out:cmTC_be08c.exe /implib:cmTC_be08c.lib /pdb:cmTC_be08c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:48 (check_include_file)"
+    checks:
+      - "Looking for stdlib.h"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ytgtsz"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ytgtsz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_STDLIB_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ytgtsz'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_63c4a
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_63c4a.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_63c4a.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-ytgtsz\\CheckIncludeFile.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_63c4a.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_63c4a.dir\\CheckIncludeFile.c.obj  /out:cmTC_63c4a.exe /implib:cmTC_63c4a.lib /pdb:cmTC_63c4a.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:49 (check_include_file)"
+    checks:
+      - "Looking for string.h"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-u56hfk"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-u56hfk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_STRING_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-u56hfk'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_2f139
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_2f139.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_2f139.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-u56hfk\\CheckIncludeFile.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_2f139.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_2f139.dir\\CheckIncludeFile.c.obj  /out:cmTC_2f139.exe /implib:cmTC_2f139.lib /pdb:cmTC_2f139.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:50 (check_include_file)"
+    checks:
+      - "Looking for strings.h"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-xbirx2"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-xbirx2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_STRINGS_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-xbirx2'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_d8a98
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d8a98.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_d8a98.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-xbirx2\\CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_d8a98.dir/CheckIncludeFile.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d8a98.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_d8a98.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-xbirx2\\CheckIncludeFile.c
+        C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-xbirx2\\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'strings.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:51 (check_include_file)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-j16z0x"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-j16z0x"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-j16z0x'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_2068d
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_2068d.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_2068d.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-j16z0x\\CheckIncludeFile.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_2068d.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_2068d.dir\\CheckIncludeFile.c.obj  /out:cmTC_2068d.exe /implib:cmTC_2068d.lib /pdb:cmTC_2068d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:52 (check_include_file)"
+    checks:
+      - "Looking for sys/time.h"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-molfm0"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-molfm0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_SYS_TIME_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-molfm0'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_7cf50
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_7cf50.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_7cf50.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-molfm0\\CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_7cf50.dir/CheckIncludeFile.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_7cf50.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_7cf50.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-molfm0\\CheckIncludeFile.c
+        C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-molfm0\\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:53 (check_include_file)"
+    checks:
+      - "Looking for sys/stat.h"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ik7p81"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ik7p81"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_SYS_STAT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ik7p81'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_15dcf
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_15dcf.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_15dcf.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-ik7p81\\CheckIncludeFile.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_15dcf.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_15dcf.dir\\CheckIncludeFile.c.obj  /out:cmTC_15dcf.exe /implib:cmTC_15dcf.lib /pdb:cmTC_15dcf.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:54 (check_include_file)"
+    checks:
+      - "Looking for sys/sysctl.h"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-pbj3ne"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-pbj3ne"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_SYS_SYSCTL_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-pbj3ne'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_d34bb
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d34bb.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_d34bb.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-pbj3ne\\CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_d34bb.dir/CheckIncludeFile.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d34bb.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_d34bb.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-pbj3ne\\CheckIncludeFile.c
+        C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-pbj3ne\\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/sysctl.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:55 (check_include_file)"
+    checks:
+      - "Looking for time.h"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-j1t670"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-j1t670"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_TIME_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-j1t670'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_8068a
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_8068a.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_8068a.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-j1t670\\CheckIncludeFile.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_8068a.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_8068a.dir\\CheckIncludeFile.c.obj  /out:cmTC_8068a.exe /implib:cmTC_8068a.lib /pdb:cmTC_8068a.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:56 (check_include_file)"
+    checks:
+      - "Looking for uintptr.h"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-dkugpt"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-dkugpt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_UINTPTR_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-dkugpt'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_21cb0
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_21cb0.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_21cb0.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-dkugpt\\CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_21cb0.dir/CheckIncludeFile.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_21cb0.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_21cb0.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-dkugpt\\CheckIncludeFile.c
+        C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-dkugpt\\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'uintptr.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:57 (check_include_file)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-iqpcvd"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-iqpcvd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-iqpcvd'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_8bf03
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_8bf03.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_8bf03.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-iqpcvd\\CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_8bf03.dir/CheckIncludeFile.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_8bf03.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_8bf03.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-iqpcvd\\CheckIncludeFile.c
+        C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-iqpcvd\\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckPrototypeDefinition.cmake:98 (try_compile)"
+      - "CMakeLists.txt:63 (check_prototype_definition)"
+    checks:
+      - "Checking prototype drand48 for HAVE_DECL_DRAND48"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-22axzm"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-22axzm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_DECL_DRAND48"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-22axzm'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_5d68a
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_5d68a.dir\\CheckPrototypeDefinition.c.obj /FdCMakeFiles\\cmTC_5d68a.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-22axzm\\CheckPrototypeDefinition.c
+        FAILED: CMakeFiles/cmTC_5d68a.dir/CheckPrototypeDefinition.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_5d68a.dir\\CheckPrototypeDefinition.c.obj /FdCMakeFiles\\cmTC_5d68a.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-22axzm\\CheckPrototypeDefinition.c
+        C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-22axzm\\CheckPrototypeDefinition.c(10): error C2065: 'drand48': undeclared identifier
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckPrototypeDefinition.cmake:98 (try_compile)"
+      - "CMakeLists.txt:64 (check_prototype_definition)"
+    checks:
+      - "Checking prototype srand48 for HAVE_DECL_SRAND48"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-xcocen"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-xcocen"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_DECL_SRAND48"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-xcocen'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_dc8dd
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_dc8dd.dir\\CheckPrototypeDefinition.c.obj /FdCMakeFiles\\cmTC_dc8dd.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-xcocen\\CheckPrototypeDefinition.c
+        FAILED: CMakeFiles/cmTC_dc8dd.dir/CheckPrototypeDefinition.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_dc8dd.dir\\CheckPrototypeDefinition.c.obj /FdCMakeFiles\\cmTC_dc8dd.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-xcocen\\CheckPrototypeDefinition.c
+        C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-xcocen\\CheckPrototypeDefinition.c(10): error C2065: 'srand48': undeclared identifier
+        C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-xcocen\\CheckPrototypeDefinition.c(15): warning C4098: 'srand48': 'void' function returning a value
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckPrototypeDefinition.cmake:98 (try_compile)"
+      - "CMakeLists.txt:65 (check_prototype_definition)"
+    checks:
+      - "Checking prototype cosl for HAVE_DECL_COSL"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-z2mqya"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-z2mqya"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_DECL_COSL"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-z2mqya'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_339b3
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_339b3.dir\\CheckPrototypeDefinition.c.obj /FdCMakeFiles\\cmTC_339b3.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-z2mqya\\CheckPrototypeDefinition.c
+        FAILED: CMakeFiles/cmTC_339b3.dir/CheckPrototypeDefinition.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_339b3.dir\\CheckPrototypeDefinition.c.obj /FdCMakeFiles\\cmTC_339b3.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-z2mqya\\CheckPrototypeDefinition.c
+        C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-z2mqya\\CheckPrototypeDefinition.c(14): error C2084: function 'long double cosl(long double)' already has a body
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\ucrt\\corecrt_math.h(833): note: see previous definition of 'cosl'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckPrototypeDefinition.cmake:98 (try_compile)"
+      - "CMakeLists.txt:66 (check_prototype_definition)"
+    checks:
+      - "Checking prototype sinl for HAVE_DECL_SINL"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-wupc0h"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-wupc0h"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_DECL_SINL"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-wupc0h'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_be73c
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_be73c.dir\\CheckPrototypeDefinition.c.obj /FdCMakeFiles\\cmTC_be73c.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-wupc0h\\CheckPrototypeDefinition.c
+        FAILED: CMakeFiles/cmTC_be73c.dir/CheckPrototypeDefinition.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_be73c.dir\\CheckPrototypeDefinition.c.obj /FdCMakeFiles\\cmTC_be73c.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-wupc0h\\CheckPrototypeDefinition.c
+        C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-wupc0h\\CheckPrototypeDefinition.c(14): error C2084: function 'long double sinl(long double)' already has a body
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\ucrt\\corecrt_math.h(942): note: see previous definition of 'sinl'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckPrototypeDefinition.cmake:98 (try_compile)"
+      - "CMakeLists.txt:67 (check_prototype_definition)"
+    checks:
+      - "Checking prototype memalign for HAVE_DECL_MEMALIGN"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-darf7y"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-darf7y"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_DECL_MEMALIGN"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-darf7y'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_e4256
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_e4256.dir\\CheckPrototypeDefinition.c.obj /FdCMakeFiles\\cmTC_e4256.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-darf7y\\CheckPrototypeDefinition.c
+        FAILED: CMakeFiles/cmTC_e4256.dir/CheckPrototypeDefinition.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_e4256.dir\\CheckPrototypeDefinition.c.obj /FdCMakeFiles\\cmTC_e4256.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-darf7y\\CheckPrototypeDefinition.c
+        C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-darf7y\\CheckPrototypeDefinition.c(10): error C2065: 'memalign': undeclared identifier
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckPrototypeDefinition.cmake:98 (try_compile)"
+      - "CMakeLists.txt:68 (check_prototype_definition)"
+    checks:
+      - "Checking prototype posix_memalign for HAVE_DECL_POSIX_MEMALIGN"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-z02ctd"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-z02ctd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_DECL_POSIX_MEMALIGN"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-z02ctd'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_05b7d
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_05b7d.dir\\CheckPrototypeDefinition.c.obj /FdCMakeFiles\\cmTC_05b7d.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-z02ctd\\CheckPrototypeDefinition.c
+        FAILED: CMakeFiles/cmTC_05b7d.dir/CheckPrototypeDefinition.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_05b7d.dir\\CheckPrototypeDefinition.c.obj /FdCMakeFiles\\cmTC_05b7d.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-z02ctd\\CheckPrototypeDefinition.c
+        C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-z02ctd\\CheckPrototypeDefinition.c(10): error C2065: 'posix_memalign': undeclared identifier
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckPrototypeDefinition.cmake:98 (try_compile)"
+      - "CMakeLists.txt:69 (check_prototype_definition)"
+    checks:
+      - "Checking prototype _aligned_malloc for HAVE_DECL_ALIGNED_MALLOC"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-fwgmwv"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-fwgmwv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_DECL_ALIGNED_MALLOC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-fwgmwv'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_2a768
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_2a768.dir\\CheckPrototypeDefinition.c.obj /FdCMakeFiles\\cmTC_2a768.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-fwgmwv\\CheckPrototypeDefinition.c
+        C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-fwgmwv\\CheckPrototypeDefinition.c(14): warning C4273: '_aligned_malloc': inconsistent dll linkage
+        C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.22621.0\\ucrt\\corecrt_malloc.h(154): note: see previous definition of '_aligned_malloc'
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_2a768.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_2a768.dir\\CheckPrototypeDefinition.c.obj  /out:cmTC_2a768.exe /implib:cmTC_2a768.lib /pdb:cmTC_2a768.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:72 (check_symbol_exists)"
+    checks:
+      - "Looking for clock_gettime"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-5tk6w5"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-5tk6w5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_CLOCK_GETTIME"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-5tk6w5'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_5fd5f
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_5fd5f.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_5fd5f.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-5tk6w5\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_5fd5f.dir/CheckSymbolExists.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_5fd5f.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_5fd5f.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-5tk6w5\\CheckSymbolExists.c
+        C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-5tk6w5\\CheckSymbolExists.c(8): error C2065: 'clock_gettime': undeclared identifier
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:73 (check_symbol_exists)"
+    checks:
+      - "Looking for gettimeofday"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ks7t2v"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ks7t2v"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_GETTIMEOFDAY"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ks7t2v'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_f01c5
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_f01c5.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_f01c5.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-ks7t2v\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_f01c5.dir/CheckSymbolExists.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_f01c5.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_f01c5.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-ks7t2v\\CheckSymbolExists.c
+        C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-ks7t2v\\CheckSymbolExists.c(2): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:74 (check_symbol_exists)"
+    checks:
+      - "Looking for getpagesize"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-wgx4qq"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-wgx4qq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_GETPAGESIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-wgx4qq'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_9581a
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_9581a.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_9581a.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-wgx4qq\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_9581a.dir/CheckSymbolExists.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_9581a.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_9581a.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-wgx4qq\\CheckSymbolExists.c
+        C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-wgx4qq\\CheckSymbolExists.c(2): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:75 (check_symbol_exists)"
+    checks:
+      - "Looking for drand48"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-rukwns"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-rukwns"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_DRAND48"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-rukwns'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_bc6b8
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_bc6b8.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_bc6b8.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-rukwns\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_bc6b8.dir/CheckSymbolExists.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_bc6b8.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_bc6b8.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-rukwns\\CheckSymbolExists.c
+        C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-rukwns\\CheckSymbolExists.c(8): error C2065: 'drand48': undeclared identifier
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:76 (check_symbol_exists)"
+    checks:
+      - "Looking for srand48"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-j2de62"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-j2de62"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_SRAND48"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-j2de62'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_12181
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_12181.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_12181.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-j2de62\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_12181.dir/CheckSymbolExists.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_12181.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_12181.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-j2de62\\CheckSymbolExists.c
+        C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-j2de62\\CheckSymbolExists.c(8): error C2065: 'srand48': undeclared identifier
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:77 (check_symbol_exists)"
+    checks:
+      - "Looking for memalign"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-om2lsg"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-om2lsg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_MEMALIGN"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-om2lsg'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_49c16
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_49c16.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_49c16.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-om2lsg\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_49c16.dir/CheckSymbolExists.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_49c16.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_49c16.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-om2lsg\\CheckSymbolExists.c
+        C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-om2lsg\\CheckSymbolExists.c(8): error C2065: 'memalign': undeclared identifier
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:78 (check_symbol_exists)"
+    checks:
+      - "Looking for posix_memalign"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-umzsyy"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-umzsyy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_POSIX_MEMALIGN"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-umzsyy'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_d9e9c
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d9e9c.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_d9e9c.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-umzsyy\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_d9e9c.dir/CheckSymbolExists.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d9e9c.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_d9e9c.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-umzsyy\\CheckSymbolExists.c
+        C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-umzsyy\\CheckSymbolExists.c(8): error C2065: 'posix_memalign': undeclared identifier
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:79 (check_symbol_exists)"
+    checks:
+      - "Looking for _aligned_malloc"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-3koryw"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-3koryw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_ALIGNED_MALLOC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-3koryw'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_cfa63
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_cfa63.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_cfa63.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-3koryw\\CheckSymbolExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_cfa63.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_cfa63.dir\\CheckSymbolExists.c.obj  /out:cmTC_cfa63.exe /implib:cmTC_cfa63.lib /pdb:cmTC_cfa63.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:80 (check_symbol_exists)"
+    checks:
+      - "Looking for mach_absolute_time"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ucixek"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ucixek"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_MACH_ABSOLUTE_TIME"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-ucixek'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_a23dc
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_a23dc.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_a23dc.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-ucixek\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_a23dc.dir/CheckSymbolExists.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_a23dc.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_a23dc.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-ucixek\\CheckSymbolExists.c
+        C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-ucixek\\CheckSymbolExists.c(2): fatal error C1083: Cannot open include file: 'mach/mach_time.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:81 (check_symbol_exists)"
+    checks:
+      - "Looking for alloca"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-b2fzok"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-b2fzok"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_ALLOCA"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-b2fzok'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_d71c4
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d71c4.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_d71c4.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-b2fzok\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_d71c4.dir/CheckSymbolExists.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d71c4.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_d71c4.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-b2fzok\\CheckSymbolExists.c
+        C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-b2fzok\\CheckSymbolExists.c(2): fatal error C1083: Cannot open include file: 'alloca.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:84 (check_symbol_exists)"
+    checks:
+      - "Looking for alloca"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-hluvxw"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-hluvxw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_ALLOCA"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-hluvxw'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_1ee60
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_1ee60.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_1ee60.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-hluvxw\\CheckSymbolExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_1ee60.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_1ee60.dir\\CheckSymbolExists.c.obj  /out:cmTC_1ee60.exe /implib:cmTC_1ee60.lib /pdb:cmTC_1ee60.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:86 (check_symbol_exists)"
+    checks:
+      - "Looking for isnan"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-wrktzo"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-wrktzo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_ISNAN"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-wrktzo'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_35529
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_35529.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_35529.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-wrktzo\\CheckSymbolExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_35529.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_35529.dir\\CheckSymbolExists.c.obj  /out:cmTC_35529.exe /implib:cmTC_35529.lib /pdb:cmTC_35529.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:87 (check_symbol_exists)"
+    checks:
+      - "Looking for snprintf"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-y9x6jk"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-y9x6jk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_SNPRINTF"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-y9x6jk'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_6ab88
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_6ab88.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_6ab88.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-y9x6jk\\CheckSymbolExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_6ab88.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_6ab88.dir\\CheckSymbolExists.c.obj  /out:cmTC_6ab88.exe /implib:cmTC_6ab88.lib /pdb:cmTC_6ab88.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:88 (check_symbol_exists)"
+    checks:
+      - "Looking for strchr"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-r2ia3n"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-r2ia3n"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_STRCHR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-r2ia3n'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_7717a
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_7717a.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_7717a.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-r2ia3n\\CheckSymbolExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_7717a.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_7717a.dir\\CheckSymbolExists.c.obj  /out:cmTC_7717a.exe /implib:cmTC_7717a.lib /pdb:cmTC_7717a.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:89 (check_symbol_exists)"
+    checks:
+      - "Looking for sysctl"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-6ic4qy"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-6ic4qy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_SYSCTL"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-6ic4qy'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_c935c
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_c935c.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_c935c.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-6ic4qy\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_c935c.dir/CheckSymbolExists.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_c935c.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_c935c.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-6ic4qy\\CheckSymbolExists.c
+        C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-6ic4qy\\CheckSymbolExists.c(2): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:94 (check_symbol_exists)"
+    checks:
+      - "Looking for cosl"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-z8r6el"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-z8r6el"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_COSL"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-z8r6el'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_eb3e1
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_eb3e1.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_eb3e1.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-z8r6el\\CheckSymbolExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_eb3e1.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_eb3e1.dir\\CheckSymbolExists.c.obj  /out:cmTC_eb3e1.exe /implib:cmTC_eb3e1.lib /pdb:cmTC_eb3e1.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:95 (check_symbol_exists)"
+    checks:
+      - "Looking for sinl"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-mf4zoj"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-mf4zoj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_SINL"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-mf4zoj'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_4bfa3
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_4bfa3.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_4bfa3.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-mf4zoj\\CheckSymbolExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_4bfa3.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4bfa3.dir\\CheckSymbolExists.c.obj  /out:cmTC_4bfa3.exe /implib:cmTC_4bfa3.lib /pdb:cmTC_4bfa3.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "CMakeLists.txt:98 (check_type_size)"
+    checks:
+      - "Check size of float"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-7fckkg"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-7fckkg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_SIZEOF_FLOAT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-7fckkg'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_80d02
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_80d02.dir\\SIZEOF_FLOAT.c.obj /FdCMakeFiles\\cmTC_80d02.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-7fckkg\\SIZEOF_FLOAT.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_80d02.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_80d02.dir\\SIZEOF_FLOAT.c.obj  /out:cmTC_80d02.exe /implib:cmTC_80d02.lib /pdb:cmTC_80d02.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "CMakeLists.txt:99 (check_type_size)"
+    checks:
+      - "Check size of double"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-gctpv7"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-gctpv7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_SIZEOF_DOUBLE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-gctpv7'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_42cbe
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_42cbe.dir\\SIZEOF_DOUBLE.c.obj /FdCMakeFiles\\cmTC_42cbe.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-gctpv7\\SIZEOF_DOUBLE.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_42cbe.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_42cbe.dir\\SIZEOF_DOUBLE.c.obj  /out:cmTC_42cbe.exe /implib:cmTC_42cbe.lib /pdb:cmTC_42cbe.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "CMakeLists.txt:100 (check_type_size)"
+    checks:
+      - "Check size of int"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-c05m8a"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-c05m8a"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_SIZEOF_INT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-c05m8a'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_9fdf9
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_9fdf9.dir\\SIZEOF_INT.c.obj /FdCMakeFiles\\cmTC_9fdf9.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-c05m8a\\SIZEOF_INT.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_9fdf9.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_9fdf9.dir\\SIZEOF_INT.c.obj  /out:cmTC_9fdf9.exe /implib:cmTC_9fdf9.lib /pdb:cmTC_9fdf9.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "CMakeLists.txt:101 (check_type_size)"
+    checks:
+      - "Check size of long"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-rh9rg4"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-rh9rg4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_SIZEOF_LONG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-rh9rg4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_89d4b
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_89d4b.dir\\SIZEOF_LONG.c.obj /FdCMakeFiles\\cmTC_89d4b.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-rh9rg4\\SIZEOF_LONG.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_89d4b.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_89d4b.dir\\SIZEOF_LONG.c.obj  /out:cmTC_89d4b.exe /implib:cmTC_89d4b.lib /pdb:cmTC_89d4b.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "CMakeLists.txt:102 (check_type_size)"
+    checks:
+      - "Check size of long long"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-g5c1q4"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-g5c1q4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_SIZEOF_LONG_LONG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-g5c1q4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_837f9
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_837f9.dir\\SIZEOF_LONG_LONG.c.obj /FdCMakeFiles\\cmTC_837f9.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-g5c1q4\\SIZEOF_LONG_LONG.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_837f9.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_837f9.dir\\SIZEOF_LONG_LONG.c.obj  /out:cmTC_837f9.exe /implib:cmTC_837f9.lib /pdb:cmTC_837f9.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "CMakeLists.txt:103 (check_type_size)"
+    checks:
+      - "Check size of unsigned int"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-m86ssa"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-m86ssa"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_SIZEOF_UNSIGNED_INT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-m86ssa'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_4142c
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_4142c.dir\\SIZEOF_UNSIGNED_INT.c.obj /FdCMakeFiles\\cmTC_4142c.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-m86ssa\\SIZEOF_UNSIGNED_INT.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_4142c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4142c.dir\\SIZEOF_UNSIGNED_INT.c.obj  /out:cmTC_4142c.exe /implib:cmTC_4142c.lib /pdb:cmTC_4142c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "CMakeLists.txt:104 (check_type_size)"
+    checks:
+      - "Check size of unsigned long"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-uq23be"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-uq23be"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_SIZEOF_UNSIGNED_LONG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-uq23be'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_ca702
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_ca702.dir\\SIZEOF_UNSIGNED_LONG.c.obj /FdCMakeFiles\\cmTC_ca702.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-uq23be\\SIZEOF_UNSIGNED_LONG.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ca702.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ca702.dir\\SIZEOF_UNSIGNED_LONG.c.obj  /out:cmTC_ca702.exe /implib:cmTC_ca702.lib /pdb:cmTC_ca702.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "CMakeLists.txt:105 (check_type_size)"
+    checks:
+      - "Check size of unsigned long long"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-plkd49"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-plkd49"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_SIZEOF_UNSIGNED_LONG_LONG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-plkd49'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_e7ea8
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_e7ea8.dir\\SIZEOF_UNSIGNED_LONG_LONG.c.obj /FdCMakeFiles\\cmTC_e7ea8.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-plkd49\\SIZEOF_UNSIGNED_LONG_LONG.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_e7ea8.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e7ea8.dir\\SIZEOF_UNSIGNED_LONG_LONG.c.obj  /out:cmTC_e7ea8.exe /implib:cmTC_e7ea8.lib /pdb:cmTC_e7ea8.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "CMakeLists.txt:106 (check_type_size)"
+    checks:
+      - "Check size of size_t"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-88ts7i"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-88ts7i"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_SIZEOF_SIZE_T"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-88ts7i'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_21170
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_21170.dir\\SIZEOF_SIZE_T.c.obj /FdCMakeFiles\\cmTC_21170.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-88ts7i\\SIZEOF_SIZE_T.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_21170.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_21170.dir\\SIZEOF_SIZE_T.c.obj  /out:cmTC_21170.exe /implib:cmTC_21170.lib /pdb:cmTC_21170.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "CMakeLists.txt:107 (check_type_size)"
+    checks:
+      - "Check size of ptrdiff_t"
+    directories:
+      source: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-9x884r"
+      binary: "C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-9x884r"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_APPLOCAL_DEPS: "OFF"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_SIZEOF_PTRDIFF_T"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/fftw3/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-9x884r'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_63d65
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /W3 /utf-8 /MP   /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_63d65.dir\\SIZEOF_PTRDIFF_T.c.obj /FdCMakeFiles\\cmTC_63d65.dir\\ /FS -c C:\\Users\\meloy\\source\\repos\\TestPureCodeEquation\\TestPureCodeEquation\\vcpkg_installed\\vcpkg\\blds\\fftw3\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-9x884r\\SIZEOF_PTRDIFF_T.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_63d65.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\10.0.22621.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_63d65.dir\\SIZEOF_PTRDIFF_T.c.obj  /out:cmTC_63d65.exe /implib:cmTC_63d65.lib /pdb:cmTC_63d65.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...

@@ -1,0 +1,11 @@
+﻿  The vcpkg manifest was disabled, but we found a manifest file in C:\Users\meloy\source\repos\TestPureCodeEquation\TestPureCodeEquation\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
+  TestPureCodeEquation.cpp
+C:\Users\meloy\source\repos\TestPureCodeEquation\TestPureCodeEquation\TestPureCodeEquation.cpp(117,8): error C2027: use of undefined type 'std::tuple<int,int,int>'
+C:\Users\meloy\source\repos\TestPureCodeEquation\TestPureCodeEquation\TestPureCodeEquation.cpp(117,8): error C2027: use of undefined type 'std::tuple<double,double>'
+C:\Users\meloy\source\repos\TestPureCodeEquation\TestPureCodeEquation\TestPureCodeEquation.cpp(183,31): error C2079: 'myu_size' uses undefined class 'std::tuple<int,int,int>'
+C:\Users\meloy\source\repos\TestPureCodeEquation\TestPureCodeEquation\TestPureCodeEquation.cpp(183,47): error C2039: 'make_tuple': is not a member of 'std'
+C:\Users\meloy\source\repos\TestPureCodeEquation\TestPureCodeEquation\TestPureCodeEquation.cpp(183,47): error C3861: 'make_tuple': identifier not found
+C:\Users\meloy\source\repos\TestPureCodeEquation\TestPureCodeEquation\TestPureCodeEquation.cpp(184,32): error C2079: 'myu_mstd' uses undefined class 'std::tuple<double,double>'
+C:\Users\meloy\source\repos\TestPureCodeEquation\TestPureCodeEquation\TestPureCodeEquation.cpp(184,48): error C2039: 'make_tuple': is not a member of 'std'
+C:\Users\meloy\source\repos\TestPureCodeEquation\TestPureCodeEquation\TestPureCodeEquation.cpp(184,48): error C3861: 'make_tuple': identifier not found
+C:\Users\meloy\source\repos\TestPureCodeEquation\TestPureCodeEquation\TestPureCodeEquation.cpp(193,18): error C2664: 'Matrix compute_myu(int,int,int,std::tuple<int,int,int>,std::tuple<double,double>)': cannot convert argument 4 from 'int' to 'std::tuple<int,int,int>'
