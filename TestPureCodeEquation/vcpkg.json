@@ -2,7 +2,8 @@
   "name": "my-project",
   "version": "1.0.0",
   "dependencies": [
-    "fftw3"
+    "fftw3",
+    "eigen3"  
   ],
   "builtin-baseline": "52be198ec91d771c22178ca1683cb5f077d6eecc"
 }

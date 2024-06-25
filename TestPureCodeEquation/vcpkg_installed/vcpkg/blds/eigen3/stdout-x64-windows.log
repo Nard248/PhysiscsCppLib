@@ -1,0 +1,26 @@
+CMake Warning at scripts/cmake/vcpkg_buildpath_length_warning.cmake:4 (message):
+  eigen3's buildsystem uses very long paths and may fail on your system.
+
+  We recommend moving vcpkg to a short path such as 'C:\src\vcpkg' or using
+  the subst command.
+Call Stack (most recent call first):
+  C:/Users/meloy/AppData/Local/vcpkg/registries/git-trees/17249b310c689b0722c3ee825780a8e24c7d73a2/portfile.cmake:1 (vcpkg_buildpath_length_warning)
+  scripts/ports.cmake:175 (include)
+
+
+-- Downloading https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.gz -> libeigen-eigen-3.4.0.tar.gz...
+-- Extracting source C:/Users/meloy/AppData/Local/vcpkg/downloads/libeigen-eigen-3.4.0.tar.gz
+-- Applying patch remove_configure_checks.patch
+-- Applying patch fix-vectorized-reductions-half.patch
+-- Using source at C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/blds/eigen3/src/3.4.0-1beca8819c.clean
+-- Found external ninja('1.11.0').
+-- Configuring x64-windows
+-- Building x64-windows-rel
+-- Installing: C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/pkgs/eigen3_x64-windows/debug/lib/pkgconfig/eigen3.pc
+-- Fixing pkgconfig file: C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/pkgs/eigen3_x64-windows/lib/pkgconfig/eigen3.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.1.0-1-any.pkg.tar.zst.
+-- Using cached msys2-msys2-runtime-3.4.10-4-x86_64.pkg.tar.zst.
+-- Using msys root at C:/Users/meloy/AppData/Local/vcpkg/downloads/tools/msys2/fdbea3694fb5c0d4
+-- Fixing pkgconfig file: C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/pkgs/eigen3_x64-windows/debug/lib/pkgconfig/eigen3.pc
+-- Installing: C:/Users/meloy/source/repos/TestPureCodeEquation/TestPureCodeEquation/vcpkg_installed/vcpkg/pkgs/eigen3_x64-windows/share/eigen3/copyright
+-- Performing post-build validation

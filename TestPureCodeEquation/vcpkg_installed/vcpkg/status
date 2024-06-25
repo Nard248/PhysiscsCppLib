@@ -1,0 +1,24 @@
+Package: vcpkg-cmake-config
+Version: 2024-05-23
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 0d76d33fe2f9a604108988c40d257b3ef557e3d7684c69fa8d2ff79688ff5555
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2024-04-23
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 58b74bdbfda2f6f5b822225224623d86d38df84e00758a70c5e7ad5148e4e345
+Status: install ok installed
+
+Package: fftw3
+Version: 3.3.10
+Port-Version: 8
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: f024ca412d0ebff7d0aff7af4a5679ed1c93a01816379b250808d5d2cd98d74e
+Description: FFTW is a C subroutine library for computing the discrete Fourier transform (DFT) in one or more dimensions, of arbitrary input size, and of both real and complex data (as well as of even/odd data, i.e. the discrete cosine/sine transforms or DCT/DST).
+Status: install ok installed
+
